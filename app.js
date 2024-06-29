@@ -51,8 +51,8 @@ function generarNumeroSecreto(){
 
 }
 function condicionesIniciales() {
-    asignarTextoElemento('h1', 'Juego del numero secreo');
-    asignarTextoElemento('p', `Indica un numero del 1 al ${numeroMaximo}`);
+    asignarTextoElemento('h1', 'Bienvenido Jorge el curiosin');
+    asignarTextoElemento('p', `trata de adivinar el numero y ganaras una banana, Indica un numero del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
